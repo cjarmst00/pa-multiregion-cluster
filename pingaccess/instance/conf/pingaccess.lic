@@ -1,0 +1,12 @@
+ID=00147745
+Product=PingAccess
+Version=6.2
+EnforcementType=3
+Tier=Free
+IssueDate=2021-03-10
+ExpirationDate=2021-04-09
+DeploymentMethod=Traditional
+Organization=Centene Corporation
+Name=PingAccess-6.2-Development
+SignCode=FF03
+Signature=302C02147B7779E1D8FA685CD09F7B59D6A643C418BAAC81021403905899F4247B2C2F7DC88A8F963A4D64781E90
