@@ -44,11 +44,11 @@ then
 
     while true
     do
-        _pa_curl "https://${_pahost}:${_paport}/pa/heartbeat.ping"
+        _pa_curl "https://${_pahost}:${_paport}/pa/heartbeat.ping" 2>/dev/null
         if test $? -ne 0 ;
         then
             echo "Adding Engine: Server not started, waiting.."
-            sleep 3
+            sleep 10
         else
             echo "PA started, begin adding engine"
             break
