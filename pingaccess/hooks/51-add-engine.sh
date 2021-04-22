@@ -23,6 +23,7 @@ _password=${PING_IDENTITY_PASSWORD:-PA_ADMIN_PASSWORD_INITIAL}
 # ping-devops helm charts
 test -n "${PA_ADMIN_PRIVATE_HOSTNAME}" && _pahost=${PA_ADMIN_PRIVATE_HOSTNAME}
 test -n "${PA_ADMIN_PRIVATE_PORT_HTTPS}" && _paport=${PA_ADMIN_PRIVATE_PORT_HTTPS}
+## Specific to the multi region deployment, using the public console ingress
 test -n "${PA_ADMIN_PUBLIC_HOSTNAME}" && _pahost=${PA_ADMIN_PUBLIC_HOSTNAME}
 test -n "${PA_ADMIN_PUBLIC_PORT_HTTPS}" && _paport=${PA_ADMIN_PUBLIC_PORT_HTTPS}
 
